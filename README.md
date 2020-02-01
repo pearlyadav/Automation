@@ -6,6 +6,9 @@ After cloning it, use:
 python3 cuimsLogin.py
 ```
 
+#### Requirements
+1. Gecko driver - for Firefox [Find it here!](https://github.com/mozilla/geckodriver/releases)
+
 ### For Ratings.js
 
 1. first clone it.
@@ -18,3 +21,5 @@ python3 cuimsLogin.py
 node competitve.js <codechef_username> <hackerearth_username> <codeforces_username>
 ```
 
+#### Requirements
+1. Node JS installed. If not [Click Here](https://nodejs.org/en/)
