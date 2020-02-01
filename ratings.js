@@ -19,9 +19,6 @@ const puppeteer = require('puppeteer');
         }
     });
     console.log(CodeChefRating); 
-    // }else{
-    //     console.log("Error! Cannot connect to Internet");        
-    // }
 }
 else{
     console.log("Provide your CodeChef Handle!!!");
