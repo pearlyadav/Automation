@@ -13,12 +13,12 @@ python3 cuimsLogin.py
 
 1. first clone it.
 2. open terminal and use:
-3. ```npm init -y```
-4. ```npm i puppeteer```
+3. ```sudo npm init -y```
+4. ```sudo npm i puppeteer```
 5. The run the script using:
 
 ```bash
-node competitve.js <codechef_username> <hackerearth_username> <codeforces_username>
+node ratings.js <codechef_username> <hackerearth_username> <codeforces_username>
 ```
 
 #### Requirements
