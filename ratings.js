@@ -52,7 +52,6 @@ await page3.goto(`https://codeforces.com/profile/${process.argv[4]}`, {waitUntil
 const CodeforcesRating = await page3.evaluate( () => {
   let ratingList = document.querySelectorAll(".user-gray");
   const b = [...ratingList];
-<<<<<<< HEAD
   for(var i=0;i<b.length;i++){
     var x = + b[i].textContent
     if(x){
@@ -62,10 +61,6 @@ const CodeforcesRating = await page3.evaluate( () => {
   }
   if(rating){
     return `Codeforces Rating: ${rating}`;
-=======
-  if(typeof b[4]!=='undefined' && b[4]){
-    return `Codeforces Rating: ${b[4].innerText}`;
->>>>>>> 7c9e431d3ef4a8e0bbeac10f53fe3c5afb43db91
   }
   else{
     return "Sorry, Cannot Get Codeforces Rating at this moment. Please try again later!!!";
